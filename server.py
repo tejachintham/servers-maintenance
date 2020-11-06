@@ -93,7 +93,7 @@ def sqlwrite(data,tablename):
 parameters=[('server_id','id'),('user_id','user_id'),('name','serverName'),('ip','ipAddress'),('provider','serverProvider')]
 tablename="servers"
 mydb = mysql.connector.connect(
-               host="35.238.96.143",
+               host="ip",
                user="serverman",
                passwd="",
                database="orgway_serverman"
