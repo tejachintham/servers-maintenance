@@ -108,7 +108,7 @@ parameters=[('app_id','id'),('server_user_id','server_user_id'),('server_user_us
 tablename="applications"
 try:
     mydb = mysql.connector.connect(
-               host="35.238.96.143",
+               host="ip",
                user="serverman",
                passwd="",
                database="orgway_serverman"
