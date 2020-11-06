@@ -61,7 +61,7 @@ def sqlwrite(data,tablename):
                 keys.append(str(v))
                 value.append(str(x).replace("'",'"'))
             mydb = mysql.connector.connect(
-               host="35.238.96.143",
+               host="ip",
                user="serverman",
                passwd="",
                database="orgway_serverman"
